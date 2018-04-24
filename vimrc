@@ -27,3 +27,6 @@ execute pathogen#infect()
 
 " NERDTreeToggle
 map <C-n> :NERDTreeToggle<CR>
+
+" Alias Make -> make
+cnoreabbrev Make make
