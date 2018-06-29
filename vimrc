@@ -27,3 +27,18 @@ execute pathogen#infect()
 
 " NERDTreeToggle
 map <C-n> :NERDTreeToggle<CR>
+
+" Limeline toggle when entering limelight
+autocmd! User GoyoEnter Limelight
+autocmd! User GoyoLeave Limelight!
+
+" Color name (:help cterm-colors) or ANSI code
+let g:limelight_conceal_ctermfg = 'gray'
+let g:limelight_conceal_ctermfg = 240
+
+" Color name (:help gui-colors) or RGB color
+let g:limelight_conceal_guifg = 'DarkGray'
+let g:limelight_conceal_guifg = '#777777'
+
+" Unified color scheme (default: dark)
+colo seoul256
