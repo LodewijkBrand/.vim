@@ -42,3 +42,6 @@ let g:limelight_conceal_guifg = '#777777'
 
 " Unified color scheme (default: dark)
 colo seoul256
+
+" Alias Make -> make
+cnoreabbrev Make make
