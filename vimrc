@@ -45,3 +45,6 @@ colo seoul256
 
 " Alias Make -> make
 cnoreabbrev Make make
+
+" Stop WSL from beeping in vim
+set visualbell
